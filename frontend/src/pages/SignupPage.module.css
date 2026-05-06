@@ -1,0 +1,134 @@
+.wrap {
+  padding: 40px 24px 32px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent2);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.title {
+  font-family: 'Instrument Serif', serif;
+  font-size: 32px;
+  line-height: 1.2;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.title em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.sub {
+  font-size: 13px;
+  color: var(--text2);
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.label {
+  font-size: 12px;
+  color: var(--text2);
+  margin-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.fieldGroup {
+  margin-bottom: 28px;
+}
+
+.input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 13px 16px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: var(--accent2);
+}
+
+.input::placeholder {
+  color: var(--text3);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 32px;
+  margin-top: 12px;
+}
+
+.chip {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.18s;
+  user-select: none;
+}
+
+.chip.selected {
+  background: #1e1b13;
+  border-color: var(--accent2);
+}
+
+.chip.selected .chipName {
+  color: var(--accent);
+}
+
+.emoji {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.chipName {
+  font-size: 11px;
+  color: var(--text2);
+  font-weight: 500;
+}
+
+.btn {
+  width: 100%;
+  background: var(--accent);
+  color: #0f0f0f;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.18s;
+  letter-spacing: 0.02em;
+}
+
+.btn:hover {
+  background: var(--accent2);
+}
+
+.note {
+  text-align: center;
+  font-size: 11px;
+  color: var(--text3);
+  margin-top: 16px;
+  line-height: 1.6;
+}
