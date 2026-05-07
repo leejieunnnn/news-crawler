@@ -12,7 +12,8 @@ jobs:
 # JOB 1: CI (빌드 검증)
 # ────────────────────────────────────
   ci:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
+    
 
     steps:
       - name: 코드 체크아웃
